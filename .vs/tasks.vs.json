@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-LoginTesting",
+      "appliesTo": "src/test/java/testing/LoginTesting.java",
+      "type": "launch"
+    }
+  ]
+}
