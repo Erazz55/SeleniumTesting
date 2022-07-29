@@ -46,6 +46,8 @@ public class LoginTesting {
 
 	@Test
 	public void orangeHRMLoginTestCase() {
+		System.out.print("---------------------Hello Selenium------------------");
+		
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		driver.manage().window().setSize(new Dimension(1594, 860));
 		driver.findElement(By.cssSelector("#divUsername > .form-hint")).click();
